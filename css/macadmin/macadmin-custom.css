@@ -1,0 +1,66 @@
+html {
+	background-color: #F2F4F6;
+}
+.table tr td a.btn {
+	padding: 5px 11px 5px 11px;
+}
+.table td {
+	padding: 2px;
+	line-height: 28px;
+	vertical-align: middle;
+}
+.navbar .nav > li > a {
+    padding: 10px 15px;
+}
+.navbar .brand {
+	padding: 10px 15px;
+}
+span.stats {
+	font-size: 20px;
+	padding: 8px;
+	color: #000000;
+}
+div.padd {
+	padding-top: 10px;
+}
+div.padd div.span3 {
+	height: 115px;
+	max-height: 115px;
+	overflow: hidden;
+}
+div.stat-box {
+	padding:5px;
+	border: 1px solid #FCFCFC;
+}
+span.more-stats {
+	position: relative;
+	top: 50px;
+	left: 150px;
+}
+div.stat-box h3 {
+	color: #545896;
+}
+a.more-stats-link {
+	text-decoration: none;
+	padding-top: 5px;
+}
+i.stat-title-icon {
+	padding-left: 10px;
+	padding-top: 10px;
+	color: #545896;
+}
+i.butn {
+	font-size: 24px;
+}
+i.butn:hover {
+	color: #595959;
+}
+.butn-info {
+	color: #45A1DE;
+}
+.butn-success {
+	color: #1DCCAA;
+}
+.butn-danger {
+	color: #FF1500;
+}

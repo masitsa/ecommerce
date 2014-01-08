@@ -1,0 +1,99 @@
+v1.3.0 30th November 2013
+
+Added - Front-end login
+Added - Checks when creating blog posts so that post titles can't collide
+Added - Checks for duplicating usernames when adding a new user
+Added - Default timezone setting to the index.php file for servers without timezones
+Added - Checks when creating pages to make sure that one can't use non-alpha characters to name pages.
+Added - Check for a similarly named page when creating a new page. Avoid conflicts.
+Added - Add styling to the acl/add_resource page
+Added - Option to create posts and assign them to pages.
+Changed - Switch WYSIWYG to tinyMCE with it's own filemanager
+Changed - Switch the password hashing to phpass
+Changed - Use hyphens instead of underscores for blog post titles. Increase readability, SEO.
+Changed - Use hyphens instead of underscores for page names. Increase readability, SEO.
+Changed - Rename posts module to blog. Avoid confusion with the page posts functions.
+Changed - Change front-end routing to remove the 'site' section
+Changed - Admin settings page now has extended settings
+Fixed - Paths fixed so that they work for users using index.php in the path. No hard-coded URLs
+Updated - Updated documentation to match new CMS
+
+
+v1.2.0 26th September 2013
+
+Added - New macadmin+flatly back-end template
+Added - Check for duplicate username when adding a new user
+Fixed - Add portfolio and gallery redirecting to an unstyled page
+Fixed - Session timeout on AJAX requests
+
+
+v1.1.4 31st May 2013
+
+Fixed - Text helper not being loaded in last commit for pages and posts
+
+
+v1.1.3 21st May 2013
+
+Fixed - Missing header_admin file in last commit
+Added - Version file
+Added - Changelog file
+
+
+v1.1.2 20th May 2013
+
+Added - Frontend login and logout
+Added - Logout URL saved in session
+Added - Modernizr in the auth header
+Fixed - Plugin module reporting wrong plugin name on uninstall
+
+
+v1.1.1 13th May 2013
+
+Updated – Plugins with multiple pages now supported
+
+
+v1.1.0 8th May 2013
+
+New – Plugin system that will work with the new structure
+New – Unicode support for page and blog titles
+New – Page can now belong to another page
+New – Dropdown navigation for frontend on hover
+Updated – Page URL changed from site/show_page to site/page
+
+
+v1.0.3 25th April 2013
+
+Added – Create and edit portfolio project. Replace now possible.
+Added – Create and edit gallery image. Replace now possible.
+Added – Validation of portfolio and gallery. Now checks for photo upload.
+Added – Feedback alerts for actions in portfolio and gallery.
+Added – Preview when uploading carousel pictures.
+Added – Define a different homepage.
+Fixed – Edit system pages.
+Fixed – Portfolio and gallery now updating view statistics.
+Fixed – Heading of the edit page form.
+Fixed – Activate/Deactivate user levels and groups.
+Fixed – Recent logins. Now doesn’t show users that have never logged in
+
+
+v1.0.2 14th April 2013
+
+Added – Pagination on the contact form map
+Added – Blog post pagination in the backend
+Added – Pages pagination in the backend
+Added – Main navigation bar now sticks to the top on all devices. Makes navigation easier
+Added – Alternate .htaccess file for shared hosts e.g GoDaddy. Prevents “500 Internal Server Error”
+Cleaned – CSS and JS directories. Removed unused files
+Fixed – Homepage carousel navigation. It now goes under the main navigation on scrolling, as it should
+Fixed – Preview blog post from the dashboard. Link was broken
+Updated – Documentation
+
+
+v1.0.1 6th April 2013
+
+Fixed – Edit gallery category
+Fixed – Delete gallery photo
+Fixed – Gallery and Portfolio. Can now use more than one word to name
+Fixed – Gallery and Portfolio Create, Update and Delete
+Fixed – Make/Remove admin
+Updated – Documentation 

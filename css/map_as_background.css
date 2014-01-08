@@ -1,0 +1,109 @@
+#displayText{
+	z-index: 100;
+	background: green;
+	position: absolute;
+	border:1px solid;
+	width:100px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	text-align:center;
+	right: 20px;
+	top:5px
+}
+
+.shadow1 {
+	background-color: rgb(68,68,68); /* Needed for IEs */
+	-moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	-webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	zoom: 1;
+}
+
+.shadow1 .contents {
+	position: relative; /* This protects the inner element from being blurred */
+	padding: 100px;
+	background-color: #DDD;
+}
+
+label {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	width:100%;
+	display: inline-block;
+	margin: 12px 0 10px 0;
+	padding:0 40px;
+	cursor: pointer;
+}
+#map_canvas {
+	z-index:0;
+}
+
+#side_panel { 
+	width: 180px;
+	height: 300px; 
+	z-index: 100; 
+	position: absolute; 
+	margin-left: 5px; 
+	margin-top:40px; 
+	background: white
+}
+
+#show_hide {
+	width: 110px;
+	height: 20px;
+	background: white;
+	z-index: 100;
+	position: absolute;
+	font-size:15px;
+	margin-left:5px;
+	margin-top:5px;
+	border:1px solid;
+	padding:5px 0;
+	cursor: pointer;
+	text-align:center;
+}
+
+form {
+    padding: 0 0 0 0; 
+    }
+
+input {
+    padding: 5px;
+    width: 85%;
+    margin: 0 0 0 0;
+}
+.map-container, .map-canvas {
+	width: 100%; 
+	height: 350px; 
+}
+/* Large desktop */
+@media (min-width: 1200px) { 
+	.map-container, .map-canvas {
+		width: 1150px; 
+		height: 350px; 
+	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.map-container, .map-canvas {
+		width: 704px; 
+		height: 350px; 
+	}
+ }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	.map-container, .map-canvas{
+		width: 100%; 
+		height: 350px; 
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+	.map-container, .map-canvas {
+		width: 100%; 
+		height: 350px; 
+	}
+}
